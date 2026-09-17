@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-brand: #3B6FB6;
+  --color-brandd: #2E5A99;
+  --color-navy: #16305C;
+  --color-navyd: #0F2244;
+  --color-skyblue: #6FA8DC;
+  --color-orange: #F59A04;
+  --color-paper: #F4F8FC;
+  --color-ink: #1B2A41;
+  --color-slate: #5B6B82;
+  --color-line: #E1E9F3;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #F4F8FC;
+  color: #1B2A41;
+}
+
+.font-display {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #C9D6E8; border-radius: 8px; }
